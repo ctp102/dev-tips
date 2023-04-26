@@ -1,4 +1,4 @@
-## secureCRT에서 ec2 접속 에러
+## secureCRT에서 linux 2023 AMI로 생성한 EC2 접속 실패
 이슈
 - secureCRT에서 pem key로 EC2에 접속 요청 시 failure 발생  
 
