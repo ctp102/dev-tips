@@ -6,7 +6,7 @@
 - 기존에는 EC2 생성 시 aws amazon linux2로 생성했는데 이번 이슈에서는 linux 2023 AMI으로 생성했음.  
 - linux 2023 AMI로 생성한 서버는 /etc/ssh/sshd_config 파일 설정값이 amazon linux2로 생성한 서버와 다름(업데이트가 된걸로 추측)
 
-## open vpn를 통해 aws vpc에 접속했을 때 피어링 된 타 vpc에 접속이 불가능한 현상
+## open vpn를 통해 aws vpc에 접속했을 때 피어링 된 타 vpc에 접속 불가
 이슈
 - 랜선이 연결된 로컬 PC에서 Open VPN을 통해 AWS VPC에 접속 완료하여 IP 할당받은 후, 접속한 VPC와 피어링된 VPC에 접속 시도 시 실패
 - 와이파이를 사용하는 맥북은 피어링된 VPC까지 접속이 잘 됨
