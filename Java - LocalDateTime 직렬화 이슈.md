@@ -1,6 +1,8 @@
 ## Java8에서 LocalDateTime을 직렬화할 때 발생하는 이슈
 원인
-- Java 8에서는 java.time.LoaclDateTime 형식의 날짜/시간 유형을 지원하지 않는다.
+- Java 8에서는 java.time.LoaclDateTime 형식의 날짜/시간 유형을 지원하지 않는다.  
+
+---
 해결
 - com.fasterxml.jackson.datatype.jsr310 패키지를 추가하여 JavaTimeModule 클래스를 ObjectMapper에 등록해준다.
 ```java
